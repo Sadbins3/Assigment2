@@ -10,10 +10,14 @@
     gap: 1.5rem;
     
     align-items: center;
+    
 }
+
 .box{
     background-color: rgba(150, 130, 130, 0.063);
-    padding: 5px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
 }
 .gamer{
     display: flex;
@@ -27,6 +31,11 @@
     color: rosybrown;
 }
 /* main start */
+
+
+
+
+
 .main{
 
     display: flex;
@@ -79,7 +88,9 @@ align-items: center;
 .last-m{
     display: flex;
     justify-content: space-between;
-    margin: 40px 130px;
+    margin: 40px 100px;
+    text-align: center;
+    align-items: center;
 }
 .horse{
     height: 500px;
@@ -87,4 +98,210 @@ align-items: center;
 .last{
     text-align: center;
     align-items: center;
+    position: relative;
+    top: 80px;
 }
+.cat{
+    padding: 0px;
+    border: 7px solid #fff;
+    position: relative;
+   
+    left: 200px;
+    top: 80px;
+}
+.bx{
+    width: 300px;
+}
+.last>h2{
+    font-size: 50px;
+}
+.last{
+    position: relative;
+    bottom: 150px;
+    left: 40px;
+}
+.btn-primary{
+    display: flex;
+    gap: 10px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 30px;
+    padding: 5px;
+}
+.btn-section1, .btn-section2{
+    display: flex;
+    gap: 20px;
+    
+    text-align: center;
+    align-items: center;
+}
+.btn-section{
+    margin-left: 250px;
+    background-color: #fff;
+    margin-top: 100px;
+}
+.btn-section1{
+    margin-bottom: 10px;
+}
+.btn-section2{
+    margin-left: 60px;
+}
+.btn-primary :hover{
+    cursor: pointer;
+    color:  #F948B2;
+}
+.btn{
+    display: flex ;
+}
+
+
+/* footer start */
+.ff{
+    gap: 15px;
+    display: flex;
+}
+.ff2{
+    display: flex;
+    gap: 15px;
+}
+.footer-heading{
+    display: flex;
+}
+footer{
+    background-color: rgb(36, 36, 72);
+
+}
+.foot-text{
+    color: #fff;
+}
+.foot-contant{
+    display: flex;
+    gap: 15px;
+}
+
+.foot-icon{
+    display: flex;
+    gap: 30px;
+}
+.foot-icon>img{
+    width: 40px;
+}
+.foot-last{
+    display: flex;
+    gap: 20px;
+}
+.f1{
+    margin-left: 650px;
+}
+.f2{
+    margin-left: 450px;
+}
+.f3{
+    margin-left: 659px;
+}
+.f4{
+    margin-left: 540px;
+}
+footer{
+    padding: 40px 10px;
+}
+.las{
+    margin-left: 560px;
+}
+
+
+
+
+@media screen  and (max-width:576px) {
+    .nav, .nav-li, .main, 
+    .last-m,
+    .image{
+        flex-direction: column; 
+        margin-left: 100px;
+    }
+    header{
+       margin-left: 130px;
+       margin-bottom: 2rem;
+    }
+    .nav-li{
+        margin-left: 10px;
+        gap: 0.20rem;
+    }
+    main{
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .main{
+        margin: 0px;
+        margin-left: 100px;
+    }
+    .image{
+        margin-left: 50px ;
+    }
+    .contant{
+        margin-left: 0px;
+    }
+    .last-m{
+        margin-left: 100px;
+        margin-top: 30px ;
+    }
+    
+    
+    .horse{
+      margin-left: 10px;
+    }
+    .btn-section{
+        margin: 0px;
+        margin-top: 10px;
+        margin-left: 20px;
+        flex-direction: column;
+       
+    }
+    .f1{
+        margin-left: 150px;
+       }
+    .f2{
+        margin-left: 100px;
+            
+    }
+    .foot-contant{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .f3{
+        margin-left: 140px;
+    }
+    .f4{
+        margin-left: 80px;
+            
+    }
+   .btn-section1{
+        display: inline;
+    }
+   .btn-section2{
+        display: inline;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    
+    }
+    .btn-primary{
+        margin-top: 2px;
+   
+    }
+    footer{
+        width: 95%;
+        padding-bottom: 20px;
+    }
+    .main>img{
+        width: 100%;
+    }
+    .las{
+        margin-left: 4rem;
+    } 
+    .cat{
+        display: none;
+    }
+   
+ }
+    
