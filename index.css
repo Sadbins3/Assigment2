@@ -248,6 +248,7 @@ footer{
     
     
     .horse{
+        margin-top: 100px;
       margin-left: 10px;
     }
     .btn-section{
@@ -290,7 +291,7 @@ footer{
    
     }
     footer{
-        width: 95%;
+        width: 100%;
         padding-bottom: 20px;
     }
     .main>img{
@@ -301,6 +302,9 @@ footer{
     } 
     .cat{
         display: none;
+    }
+    .gamer{
+        margin-left: 0px;
     }
    
  }
